@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		<meta name="author" content="HECTOR VLADIMIR ROBAYO VILLARROEL">
+		<meta name="keywords" content="html,css,xml,javascript">
+		<meta name="description" content="EDUCACION">
+		<title>Educacion</title>
+	</head>
+	<body>
+		<svg id="logo" width="5px" height="5px" viewbox="0 0 100 100">
+			<img title="Logo" src="../img/logo.svg" alt="Logo" width="100px" height="100px"/>
+		</svg>
+
+		<h1 align="center" style= "color: #1015A9">HOJA DE VIDA</h1>
+		<h2 align="center" style= "color: #070A5E">DATOS PERSONALES</h2>
+		<h3 align="center">HECTOR VLADIMIR ROBAYO VILLARROEL</h3>
+		<h3 align="center">01 Abril de 1980 - Ambato</h3>
+
+		<ol>
+			<a href="../index.html"><li>Inicio</li></a>
+			<a href="educacion.html"><li>Educación</li></a>
+			<a href="experiencia.html"><li>Experiencia</li></a>
+		</ol>
+
+		<h2 align="left" style= "color: #070A5E">EDUCACIÓN</h2>
+		<table border="1" cellpadding="10" cellspacing="0">
+			<thead>
+				<tr>
+					<th bgcolor=" #ccd1d1">Año</th>
+					<th bgcolor=" #ccd1d1" colspan="2">Institución</th>
+					<th bgcolor=" #ccd1d1">Lugar</th>
+					<th bgcolor=" #ccd1d1">¿Culminó?</th>
+					<th bgcolor=" #ccd1d1">Título Obtenido</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td align="center" bgcolor="#eaeded">2005</td>
+					<td align="center" bgcolor="#eaeded">Universidad Indomaérica</td>
+					<td align="center" bgcolor="#eaeded">Particular</td>
+					<td align="center" bgcolor="#eaeded">Ambato</td>
+					<td align="center" bgcolor="#eaeded">SI</td>
+					<td align="center" bgcolor="#eaeded">Ing. Sistemas</td>
+				</tr>
+				<tr>
+					<td align="center">2001</td>
+					<td align="center">ITS. Tirso de Molina</td>
+					<td align="center">Pública</td>
+					<td align="center">Ambato</td>
+					<td align="center">SI</td>
+					<td align="center">Tecnólogo Sistemas</td>
+				</tr>
+				<tr>
+					<td align="center" bgcolor="#eaeded">2000</td>
+					<td align="center" bgcolor="#eaeded">ITS. Tirso de Molina</td>
+					<td align="center" bgcolor="#eaeded">Pública</td>
+					<td align="center" bgcolor="#eaeded">Ambato</td>
+					<td align="center" bgcolor="#eaeded">SI</td>
+					<td align="center" bgcolor="#eaeded">Técnico en Sistemas</td>
+				</tr>
+			</tbody>
+		</table>
+		<form autocomplete="on" name="form_edu">
+			<fieldset>
+				<legend>Agregar Estudios</legend>
+					<p>
+							Año <input type="number" max="2018" min="1900" style="width:50px;height:15px" placeholder="2018"> <br/> <br/>
+							<FONT COLOR="red">* </FONT> Institución: <input type="text" placeholder="Institución Educativa" style="width:300px;height:15px" requeried> <br/> <br/>
+							<FONT COLOR="red">* </FONT> Lugar: <br/><textarea name="area-lugar" rows="5" col="10"></textarea><br/> <br/>
+							Tipo de Institución:
+							<input type="radio" name="tipo" value="particular"> Particular
+							<input type="radio" name="tipo" value="publica"> Pública<br/><br/>
+							<FONT COLOR="red">* </FONT> Culminó:
+								<select>
+									<option>SI</option>
+									<option>NO</option>
+								</select>
+							 	<br/> <br/>
+							<FONT COLOR="red">* </FONT> Título Obtenido: <input type="text" placeholder="Título Académico" style="width:300px;height:15px" requeried> <br/> <br/>
+							(Los campos maracdos con <FONT COLOR="red">* </FONT> son requeridos) <br/> <br/>
+							<input type="submit" value="Enviar Datos">
+					</p>
+			</fieldset>
+		</form>
+	</body>
+	<footer>
+		<p><h4 style= "color: #070A5E">INFORMACION DE CONTACTO</h4> <br/>
+			<img src="../img/logodir.jpg" title="Vlady Robayo" alt="Vlady Robayo" width="250" height="30"><br/><br/>
+			<img src="../img/logotelf.gif" title="Vlady Robayo" alt="Vlady Robayo" width="200" height="30"><br/><br/>
+			<img src="../img/logoemail.png" title="Vlady Robayo" alt="Vlady Robayo" width="250" height="30"><br/><br/>
+		</p>
+		<p><h4 style= "color: #070A5E">REDES SOCIALES</h4> <br/>
+			<img src="../img/logoface.jpg" title="Vlady Robayo" alt="Vlady Robayo" width="150" height="30"><br/><br/>
+			<img src="../img/logotwitter.png" title="Vlady Robayo" alt="Vlady Robayo" width="150" height="30"><br/><br/>
+		</p>
+	</footer>
+</html>
